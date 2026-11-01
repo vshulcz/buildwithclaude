@@ -4816,6 +4816,35 @@
         "path": "plugins/keep-mac-awake",
         "sha": "f64ce3db2669311aeca40b21c1bdba9db4f1e56d"
       }
+    },
+    {
+      "name": "deja-vu",
+      "description": "deja-vu memory for Claude Code: your own past sessions, from every coding agent on the machine, recalled before you ask. Indexes the session files 44 agents (Claude Code, Codex, Cursor, opencode and more) already wrote to disk into a local BM25 index, and adds an MCP server, a /deja command, a skill and hooks that recall at session start, on each prompt and before edits or commands. No LLM, no embeddings, no network. Needs the deja binary (brew, npm, scoop, winget or install.sh).",
+      "version": "0.23.3",
+      "author": {
+        "name": "vshulcz",
+        "url": "https://github.com/vshulcz"
+      },
+      "homepage": "https://vshulcz.github.io/deja-vu/guide/memory-for-claude-code.html",
+      "repository": "https://github.com/vshulcz/deja-vu",
+      "license": "MIT",
+      "keywords": [
+        "memory",
+        "session-history",
+        "recall",
+        "context",
+        "claude-code",
+        "codex",
+        "cursor",
+        "copilot-cli"
+      ],
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/vshulcz/deja-vu.git",
+        "path": "claude-plugin",
+        "sha": "790921d7854b58091e88a42681a97b2890efb772"
+      }
     }
   ]
 }
